@@ -1,0 +1,40 @@
+{
+  "name": "sparrow-sms-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@config": "./src/config",
+    "@routes": "./src/routes",
+    "@controllers": "./src/controllers",
+    "@models": "./src/models",
+    "@services": "./src/services",
+    "@middlewares": "./src/middlewares",
+    "@validators": "./src/validators"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeohangRai/Sparrow-SMS-Service.git"
+  },
+  "author": "Leohang Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeohangRai/Sparrow-SMS-Service/issues"
+  },
+  "homepage": "https://github.com/LeohangRai/Sparrow-SMS-Service#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
